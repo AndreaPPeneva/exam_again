@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <link rel="stylesheet" href="css/icons.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/logo_exam.png">
+
+        <title>basic web</title>
+    </head>
+
+<body>
+
+    <header class="header-about">
+        <button class="button-navigation" onclick="openNav()">&#9776</button>
+        <a class="logo"><img src="img/logo_exam.png" alt="logo" class="logo-image"></a>
+            <nav class="mobile-nav">
+                <a href="#" class="closeBtn" onclick="closeNav()">x</a>
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="portfolio.html">PROJECTS</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+
+            <nav class="desktop-nav">
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <div class="dropdown">
+                      <a href="portfolio.html" class="dropbtn">PROJECTS</a>
+                        <div class="dropdown-content">
+                          <a href="web.html">basic web</a>
+                          <a href="content.html">basic content</a>
+                          <a href="animation.html">basic animation</a>
+                          <a href="ux.html">basic ux</a>
+                        </div>
+                    </div>
+                    <a href="contact.html">CONTACT</a>
+            </nav>
+    </header>
+
+    <div class="img-container img-container-basic_web ">
+
+    <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                 <h2 class="heading-secondary">
+                        basic web
+                 </h2>
+                 <p class="about-text">
+                        In this theme, we learned how to structure content using HTML5 and how to edit it with CSS.
+                        We developed basic skills in digital communication, user interface design, user testing, and responsive web design.
+                        We created moodboards and gained knowledge about different design styles.
+
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <main>
+            <section class="portfolip-section web-subsection">
+                    <div class="feature-box">
+                            <img src="img/moodboard.jpg" alt="moodboard" class="image-web_gridboard">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Moodboard</h3>
+                            <p class="feature-box-text">
+                                A moodboard created based on Swiss style
+                            </p>
+                           <a href="img/swiss-style-project_andrea-peneva.pdf" class="btn btn--portfolio btn--animated" id="myBtn">Example</a>
+                    </div>
+
+                    <div class="feature-box">
+                            <img src="img/mobile_firs.jpg" alt="mobilePhone" class="image-web_gridboard">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Mobile first</h3>
+                            <p class="feature-box-text">
+                                A first try on building a mobile-first website with HTML and CSS
+                            </p>
+                            <a href="http://animedesign.eu/mobile/index.html" class="btn btn--portfolio btn--animated">Example</a>
+                    </div>
+
+                    <div class="feature-box">
+                            <img src="img/wireframes.png" alt="wireframes" class="image-web_gridboard">
+                            <h3 class="heading-tertiary u-margin-bottom-small">XD prototypes</h3>
+                            <p class="feature-box-text">
+                                We learned that wireframes can be the backbone of a great website.
+                            </p>
+                            <a href="https://xd.adobe.com/view/2cbb2f24-36eb-4c89-815f-aa9255f132d5-79e8/" class="btn btn--portfolio btn--animated">Example</a>
+                    </div>
+
+                    <div class="feature-box">
+                            <img src="img/code_2.jpg" alt="code_image" class="image-web_gridboard">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Responsive Website</h3>
+                            <p class="feature-box-text">
+                                First try out of using CSS grid and making a website responsive.
+                            </p>
+                            <a href="http://animedesign.eu/web/design_grid.html" class="btn btn--portfolio btn--animated">Example</a>
+                    </div>
+            </section>
+
+
+            <footer class="footer" id="footer">
+                    <p>Follow me on:</p>
+                    <div class="middle">
+                        <a class="footer-btn" href="https://www.facebook.com/andrea.peneva">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="footer-btn" href="https://twitter.com/Andrea32083334">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="footer-btn" href="https://plus.google.com/u/0/112523454685444191639">
+                          <i class="fab fa-google"></i>
+                        </a>
+                        <a class="footer-btn" href="https://www.instagram.com/andreapeneva/">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="footer-btn" href="https://www.youtube.com/channel/UCRglEn2RqfUeArjZDvqCnOw">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                      </div>
+            </footer>
+
+
+
+    <script src="js/script.js">
+    </script>
+</body>
+</html>

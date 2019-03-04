@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <link rel="stylesheet" href="css/icons.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/logo_exam.png">
+
+        <title>basic animation</title>
+    </head>
+
+<body>
+
+    <header class="header-about">
+        <button class="button-navigation" onclick="openNav()">&#9776</button>
+        <a class="logo"><img src="img/logo_exam.png" alt="logo" class="logo-image"></a>
+            <nav class="mobile-nav">
+                <a href="#" class="closeBtn" onclick="closeNav()">x</a>
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="portfolio.html">PROJECTS</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
+
+            <nav class="desktop-nav">
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+
+
+                    <div class="dropdown">
+                      <a href="portfolio.html" class="dropbtn">PROJECTS</a>
+                        <div class="dropdown-content">
+                          <a href="web.html">basic web</a>
+                          <a href="content.html">basic content</a>
+                          <a href="animation.html">basic animation</a>
+                          <a href="ux.html">basic ux</a>
+                        </div>
+                    </div>
+
+
+                    <a href="contact.html">CONTACT</a>
+            </nav>
+    </header>
+
+    <div class="img-container img-container-basic_web ">
+
+    <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                 <h2 class="heading-secondary">
+                        basic animation
+                 </h2>
+                 <p class="about-text">
+                    This theme is about animation concepts such as character design, storytelling, narrative and dramaturgic elements, animation principles and interactivity through Javascript
+                    We learned how to drow by hand, we used sketching and we created character sheets. We also learned how to add SVG files in HTML, how to use keyframe animations and transition in CSS and how to control the animation in JS.
+
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <main>
+            <section class="portfolip-section web-subsection">
+                    <div class="feature-box">
+                            <img src="img/clock-charechter.png" alt="clock" class="image-web_gridboard">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Storytelling & Character Design</h3>
+                            <p class="feature-box-text">
+                                For this project I designed 1 characters and a background. I created a storyboard, work sheet and I used narrative curve.
+I made a story and I animated the clock the story afterwards.
+                            </p>
+                           <a href="img/the clock story.pdf" class="btn btn--portfolio btn--animated" id="myBtn">Example</a>
+                    </div>
+
+                    <div class="feature-box">
+                            <img src="img/drums-and-fly.png" alt="drums and fly" class="image-web_gridboard">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Project Pool</h3>
+                            <p class="feature-box-text">
+                                Project pool was a group project and we decided to made a drums you van navigate via keaboard and a flying fly. This was a project that intruduced us to Javascript.
+                            </p>
+                            <a href="http://animedesign.eu/project_pool/" class="btn btn--portfolio btn--animated">Example</a>
+                    </div>
+
+                    <div class="feature-box">
+                            <img src="img/russian-constr-interactive-project.jpg" alt="russian-fist" class="image-web_gridboard">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Interactive story 1.1</h3>
+                            <p class="feature-box-text">
+                                This group project is based on a given style - Russian Constructivism. We started by creating a detailed storyboard and a personas collage, which we used throughout our design.
+                            </p>
+                            <a href="img/SP-personas_collage-storyboard.pdf" class="btn btn--portfolio btn--animated">Example</a>
+                    </div>
+
+                    <div class="feature-box">
+                            <img src="img/russian-constr-interactive-project.jpg" alt="russian-fist" class="image-web_gridboard">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Interactive story 1.2</h3>
+                            <p class="feature-box-text">
+                                After that we started developing our charecters and the other design elemnts. We coded the story and icluded 'hidden events'. We conducted peer review and at the end we made a screencast.
+                            </p>
+                            <a href="img/Peer_review-Screencast-links.pdf" class="btn btn--portfolio btn--animated">Example</a>
+                    </div>
+            </section>
+
+
+            <footer class="footer" id="footer">
+                    <p>Follow me on:</p>
+                    <div class="middle">
+                        <a class="footer-btn" href="https://www.facebook.com/andrea.peneva">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="footer-btn" href="https://twitter.com/Andrea32083334">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="footer-btn" href="https://plus.google.com/u/0/112523454685444191639">
+                          <i class="fab fa-google"></i>
+                        </a>
+                        <a class="footer-btn" href="https://www.instagram.com/andreapeneva/">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="footer-btn" href="https://www.youtube.com/channel/UCRglEn2RqfUeArjZDvqCnOw">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                      </div>
+            </footer>
+
+
+
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
